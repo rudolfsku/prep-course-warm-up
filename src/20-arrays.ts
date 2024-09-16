@@ -8,4 +8,15 @@ export {};
  *  - https://javascript.info/array
  */
 
+function stringToArray(fullnames: string[]) {
+    const result: string[] = [];
+    fullnames.forEach((fullname) => {
+        const fullNameArray = fullnam.split(" ");
+
+        fullNameArray.forEach
+    }
+
+)
+}
+
 console.log(stringToArray(["John Doe"])); // Expected output: ['John', 'Doe']

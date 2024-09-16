@@ -10,10 +10,12 @@ export {};
  *
  * A business requires a program that calculates how much sales tax to charge
  * Sales tax is 21% of the price of the product
- */
+ */ 
 
 // You are allowed to change only this function
-function calculateSalesTax() {}
+function formatCurrency(price: number): string {
+    return price.toFixed(2)
+}          
 
 const product = "You don't know JS";
 const price = 19.99;
